@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ms+Madi&family=Oswald:wght@500&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root{
+  --primary-color: #E5B528;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul{
+  list-style-type: none;
+}
+
+h1,h2{
+  font-family:'Lobster',sans-serif ;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+h3{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin: 0.5rem 0;
+}
+
+.btn{
+  padding: 0.7rem 1.5rem;
+  color: #000;
+  background: transparent;
+  border: 1px solid #000;
+  font-size: 1.4rem;
+}
+
+.btn-dark{
+  background-color: #000;
+  color: var(--primary-color);
+}
+ 
+
+@media screen and (max-width: 740px){
+  h1{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+}
